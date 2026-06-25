@@ -8,6 +8,17 @@ This project were aimed to analyzed three Streptococcus thermophilus strain (CF2
 - Converting data and Sorting
 - Variant Calling and Annotation
 
+# Data Retrieval
+Retrieved from NCBI-SRA using SRA Toolkit prefetch (v3.4.1).
+
+*S. thermophilus CF2_14* [SRR5310876](https://www.ncbi.nlm.nih.gov/sra/SRR5310876) 
+
+*S. thermophilus CF8_14* [SRR11910258](https://www.ncbi.nlm.nih.gov/sra/SRR11910258) 
+
+*S. thermophilus C13_14* [SRR11910376](https://www.ncbi.nlm.nih.gov/sra/SRR11910376) 
+
+All SRA data were provided through BioProject [PRJNA336518](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA336518) (Barnaba 2022).
+
 # Tools used
 | Step | Software |
 |--------|----------|
@@ -20,22 +31,10 @@ This project were aimed to analyzed three Streptococcus thermophilus strain (CF2
 | Visualization | ngi-visualization v0.1 |
 | Data processing | R v4.5.1 |
 
-
 # Conclusion
 - CF13_14 possessed **56 genes** affected by high-impact SNPs, whereas CF2_14 have **25 genes** and CF8_14 have **29 genes** that were uniquely affected on each strain.
 - In CF13_14, four genes with high impact SNPs are directly involved in carbohydrate and amino acid metabolism, which are *lacZ*, *galE*, *ilvD*, and *manA*.
 - In contrast, CF8_14 possessed a unique high-impact SNP in the housekeeping gene *gyrA*, while CF2_14 contained high-impact SNPs exclusively in hypothetical proteins with unknown functions.
-
-## Data Retrieval
-Retrieved from NCBI-SRA using SRA Toolkit prefetch (v3.4.1).
-
-*S. thermophilus CF2_14* [SRR5310876](https://www.ncbi.nlm.nih.gov/sra/SRR5310876) 
-
-*S. thermophilus CF8_14* [SRR11910258](https://www.ncbi.nlm.nih.gov/sra/SRR11910258) 
-
-*S. thermophilus C13_14* [SRR11910376](https://www.ncbi.nlm.nih.gov/sra/SRR11910376) 
-
-All SRA data were provided through BioProject [PRJNA336518](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA336518) (Barnaba 2022).
 
 # Reference
 Barnaba TJ, Gangiredla J, Mammel MK, Lacher DW, Tartera C.2022. Draft genome sequences of 18 Streptococcus  strains isolated from live dietary supplements and cultured food products. Microbiol Resour Announcment. 11:e00266-22. DOI: https://doi.org/10.1128/mra.00266-22.
