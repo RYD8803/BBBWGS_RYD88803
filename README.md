@@ -11,11 +11,9 @@ This project were aimed to analyzed three Streptococcus thermophilus strain (CF2
 # Data Retrieval
 Retrieved from NCBI-SRA using SRA Toolkit prefetch (v3.4.1).
 
-*S. thermophilus CF2_14* [SRR5310876](https://www.ncbi.nlm.nih.gov/sra/SRR5310876) 
-
-*S. thermophilus CF8_14* [SRR11910258](https://www.ncbi.nlm.nih.gov/sra/SRR11910258) 
-
-*S. thermophilus C13_14* [SRR11910376](https://www.ncbi.nlm.nih.gov/sra/SRR11910376) 
+- *S. thermophilus CF2_14* [SRR5310876](https://www.ncbi.nlm.nih.gov/sra/SRR5310876) 
+- *S. thermophilus CF8_14* [SRR11910258](https://www.ncbi.nlm.nih.gov/sra/SRR11910258) 
+- *S. thermophilus C13_14* [SRR11910376](https://www.ncbi.nlm.nih.gov/sra/SRR11910376) 
 
 All SRA data were provided through BioProject [PRJNA336518](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA336518) (Barnaba 2022).
 
