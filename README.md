@@ -9,14 +9,17 @@ This project were aimed to analyzed three Streptococcus thermophilus strain (CF2
 - Variant Calling and Annotation
 
 # Tools used
-- Quality check: FastQC(v0.12.1)
-- Trimming low quality reads and adapters: fastp (v1.3.4)
-- Alignment: bwa (v0.7.19-r1273)
-- Converting, sorting and indexing: samtools (v1.23.1)
-- Variant calling: Freebayes (v1.3.10)
-- Annotation: snpEff (v5.4c), bcftools (v1.19)
-- Visualization: ngi-visualization (v0.1)
-- Data processing: R (v4.5.1)
+| Step | Software |
+|--------|----------|
+| Quality assessment | FastQC v0.12.1 |
+| Read trimming | fastp v1.3.4 |
+| Alignment | bwa v0.7.19 |
+| BAM processing | samtools v1.23.1 |
+| Variant calling | FreeBayes v1.3.10 |
+| Variant annotation | snpEff v5.4c, bcftools v1.19 |
+| Visualization | ngi-visualization v0.1 |
+| Data processing | R v4.5.1 |
+
 
 # Conclusion
 - CF13_14 possessed **56 genes** affected by high-impact SNPs, whereas CF2_14 have **25 genes** and CF8_14 have **29 genes** that were uniquely affected on each strain.
