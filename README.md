@@ -34,7 +34,9 @@ All SRA data were provided through BioProject [PRJNA336518](https://www.ncbi.nlm
 - In CF13_14, four genes with high impact SNPs are directly involved in carbohydrate and amino acid metabolism, which are *lacZ*, *galE*, *ilvD*, and *manA*.
 - In contrast, CF8_14 possessed a unique high-impact SNP in the housekeeping gene *gyrA*, while CF2_14 contained high-impact SNPs exclusively in hypothetical proteins with unknown functions.
 
-# Script for creating data in csv file
+# Script for creating data in csv file 
+
+This script is used to create the data in CSV file, which extract information from the TSV file created by the snpEff annotation.
 
 ```bash
 grep -v "^#" CF13_14_annotated.vcf | awk '
